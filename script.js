@@ -5,7 +5,6 @@ let currency = document.querySelector(".currency-value")
 let inputCurrency = document.querySelector(".input-currency").value
 let currencyConverted = document.querySelector(".currency-value-converted")
 
-
 function convertCurrency() {
     currency = document.querySelector(".currency-value")
     inputCurrency = document.querySelector(".input-currency").value
