@@ -1,12 +1,15 @@
 const button = document.querySelector(".convert-currency")
 const currencySelect = document.querySelector(".currency-select-converted")
 const currencySelectToConvert = document.querySelector(".currency-select-to-convert")
-const currency = document.querySelector(".currency-value")
-const inputCurrency = document.querySelector(".input-currency").value
-const currencyConverted = document.querySelector(".currency-value-converted")
+let currency = document.querySelector(".currency-value")
+let inputCurrency = document.querySelector(".input-currency").value
+let currencyConverted = document.querySelector(".currency-value-converted")
 
 
 function convertCurrency() {
+    currency = document.querySelector(".currency-value")
+    inputCurrency = document.querySelector(".input-currency").value
+    currencyConverted = document.querySelector(".currency-value-converted")
 
     const realToDolarToDay = 5.20
     const realToEuroToDay = 5.50
