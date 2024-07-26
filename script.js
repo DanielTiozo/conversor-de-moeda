@@ -439,7 +439,7 @@ function changeCurrencyToConvert() {
 
     if (currencySelectToConvert.value == "euro") {
         currencyNameToConvert.innerHTML = "Euro"
-        currencyImageToConvert.src = "./assets/dolar.png"
+        currencyImageToConvert.src = "./assets/euro.png"
         currency.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
