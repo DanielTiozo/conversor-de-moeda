@@ -37,6 +37,13 @@ function convertCurrency() {
 
     const ieneToRubloToDay = 0.55
 
+    if (currencySelect.value == "real"){
+        currencyConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+        }).format(inputCurrency)
+    }
+
     if (currencySelect.value == "real" & currencySelectToConvert.value == "real") {
         currencyConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
